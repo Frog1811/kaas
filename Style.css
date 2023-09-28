@@ -1,0 +1,124 @@
+body{
+margin: 0px;
+background-image: url("test.jpg");
+}
+.TopBar{
+background-color: grey;
+height: 100%;
+width: 100%;
+}
+.Welkom{
+Text-align: center;
+color: white;
+Font-size: 40px;
+display: flex;
+justify-content: space-between;
+}
+.Margin{
+Margin-right: 45%;
+}
+.openB{
+background-color: grey;
+color: white;
+font-size: 30px;
+border-color: grey;
+}
+.openB:hover {
+background-color: #444;
+}
+.sidebar {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+.sidebar a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+.sidebar a:hover {
+color: #f1f1f1;
+}
+.sidebar .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+.info{
+color: white;
+border-style: solid;
+border-image: url(border.png) 30 round;
+width: 35%;
+height: 30%;
+border-height: 20px;
+border-width: 20px;
+position: absolute;
+top: 160px;
+left: 150px;
+}
+.info-head{
+text-align: center;
+}
+.info-body{
+font-size: 25px
+}
+.luigi{
+display: flex;
+justify-content: center;
+margin: -89px;
+}
+.animation{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  display: none;
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  50%  {left:1820px; top:0px;}
+  100%  {left:0px; top:0px;}
+}
+.Update {
+color: white;
+border-style: solid;
+border-image: url(border.png) 30 round;
+width: 35%;
+height: 30%;
+border-height: 20px;
+border-width: 20px;
+position: absolute;
+top: 500px;
+left: 1000px;
+}
+.Centering{
+text-align: center;
+}
+.LOG{
+font-size: 25px
+}
+.koopa{
+display: flex;
+justify-content: center;
+margin: 61px;
+margin-left: -570px;
+}
+.UpdateImage{
+display: flex;
+flex-direction: row-reverse;
+margin: 50px;
+transform: translateY(-280px);
+}

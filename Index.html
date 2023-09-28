@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><Portfolio>Home</></title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/x-icon" href="Favicon.png">
+</head>
+<body>
+<div class="TopBar">
+    <div class="Welkom">
+        <button class="openB" onclick="openNav()">☰</button>
+        <div class="Margin">
+            <b>Welkom</b>
+        </div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="Over-mij.html" target="_blank">Over mij</a>
+        <a href="#">Projecten</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<div class="info">
+    <div class="info-head">
+        <h1>INFO</h1>
+    </div>
+    <div class="info-body">
+        Halo, mijn naam is Rick Blaauw. <br>
+        U bevindt zich op het moment op mijn portfolio home page.<br> u kunt hier vinden:
+        <ul>
+            <li>over mij</li>
+            <li>Mijn Projecten</li>
+            <li>Contact gegevens</li>
+        </ul>
+        <div class="luigi">
+            <img src="luigi.png" width="55px" height="70px">
+        </div>
+    </div>
+</div>
+<div class="animation">
+    <img src="cloud1.png" height="100px" width="100px">
+</div>
+<div class="Update">
+    <div class="Centering">
+        <H1>Latest Project</H1>
+    </div>
+    <div class="LOG">
+        <p>
+            Currently i am working on: <br> <u>Minecraft Plugin 1.19.2</u>
+        </p>
+        <div class="koopa">
+        <img src="Koopa.png" width="100px" height="80px">
+        </div>
+        <div class="UpdateImage">
+            <img src="image.jpg" width="200px" height="200px">
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<b>halo meneer</b>
