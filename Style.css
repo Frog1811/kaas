@@ -1,6 +1,6 @@
 body{
 margin: 0px;
-background-image: url("test.jpg");
+background-image: url("IMG/Test.jpg");
 }
 .TopBar{
 background-color: grey;
@@ -59,7 +59,7 @@ margin-left: 50px;
 .info{
 color: white;
 border-style: solid;
-border-image: url(border.png) 30 round;
+border-image: url(IMG/border.png) 30 round;
 width: 35%;
 height: 30%;
 border-height: 20px;
@@ -95,7 +95,7 @@ margin: -89px;
 .Update {
 color: white;
 border-style: solid;
-border-image: url(border.png) 30 round;
+border-image: url(IMG/border.png) 30 round;
 width: 35%;
 height: 30%;
 border-height: 20px;
