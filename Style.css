@@ -141,3 +141,12 @@ a {
   top: 75%;
   left: 0;
 }
+form{
+  color: white;
+}
+.Media {
+  text-align: center;
+}
+input {
+  width: 10%;
+}
