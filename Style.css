@@ -157,3 +157,7 @@ input {
   display: flex;
   justify-items: center;
 }
+.form{
+  border: solid #111111;
+  text-align: center;
+}
