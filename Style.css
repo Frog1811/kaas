@@ -1,91 +1,92 @@
 body{
-margin: 0px;
-background-image: url("IMG/background-12.png");
+  margin: 0px;
+  background-image: url("IMG/background-12.png");
 }
 .TopBar{
-background-color: grey;
-height: 100%;
-width: 100%;
+  background-color: grey;
+  height: 100%;
+  width: 100%;
 }
 .Welkom{
-Text-align: center;
-color: white;
-Font-size: 40px;
-display: flex;
-justify-content: space-between;
+  color: white;
+  Font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -50px;
 }
 .Margin{
-Margin-right: 45%;
+  Margin-right: 45%;
 }
 .openB{
-background-color: grey;
-color: white;
-font-size: 30px;
-border-color: grey;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+  border-color: grey;
+  margin-left: 50px;
 }
 .openB:hover {
-background-color: #444;
+  background-color: #444;
 }
 .sidebar {
-height: 100%;
-width: 0;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: #111;
-overflow-x: hidden;
-transition: 0.5s;
-padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 .sidebar a {
-padding: 8px 8px 8px 32px;
-text-decoration: none;
-font-size: 25px;
-color: #818181;
-display: block;
-transition: 0.3s;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 .sidebar a:hover {
-color: #f1f1f1;
+  color: #f1f1f1;
 }
 .sidebar .closebtn {
-position: absolute;
-top: 0;
-right: 25px;
-font-size: 36px;
-margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 .info{
-color: white;
-border-style: solid;
-border-image: url(IMG/border.png) 30 round;
-width: 35%;
-height: 30%;
-border-height: 20px;
-border-width: 20px;
-position: absolute;
-top: 160px;
-left: 150px;
+  color: white;
+  border-style: solid;
+  border-image: url(IMG/border.png) 30 round;
+  width: 35%;
+  height: 30%;
+  border-height: 20px;
+  border-width: 20px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
 }
 .info-head{
-text-align: center;
+  text-align: center;
 }
 .info-body{
-font-size: 25px
+  font-size: 25px
 }
 .luigi{
-display: flex;
-justify-content: center;
-margin: -89px;
+  display: flex;
+  justify-content: center;
+  margin: -89px;
 }
 .animation{
-  width: 100px;
-  height: 100px;
-  position: relative;
-  animation-name: example;
-  animation-duration: 3s;
-  display: none;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    display: none;
 }
 @keyframes example {
   0%   {left:0px; top:0px;}
@@ -93,42 +94,42 @@ margin: -89px;
   100%  {left:0px; top:0px;}
 }
 .Update {
-color: white;
-border-style: solid;
-border-image: url(IMG/border.png) 30 round;
-width: 35%;
-height: 30%;
-border-height: 20px;
-border-width: 20px;
-position: absolute;
-top: 500px;
-left: 1000px;
+  color: white;
+  border-style: solid;
+  border-image: url(IMG/border.png) 30 round;
+  width: 35%;
+  height: 30%;
+  border-height: 20px;
+  border-width: 20px;
+  position: absolute;
+  top: 500px;
+  left: 1000px;
 }
 .Centering{
-text-align: center;
+  text-align: center;
 }
 .LOG{
-font-size: 25px
+  font-size: 25px
 }
 .koopa{
-display: flex;
-justify-content: center;
-margin: 61px;
-margin-left: -570px;
+  display: flex;
+  justify-content: center;
+  margin: 61px;
+  margin-left: -570px;
 }
 .UpdateImage{
-position: fixed;
-  top: 62%;
-  right: 15%;
+  position: fixed;
+    top: 62%;
+    right: 15%;
 }
 
 
 .Over-mij {
-  width: 650px;
-  border: 5px solid black;
-  padding: 10px;
-  color: black;
-  margin: 0 auto;
+    width: 650px;
+    border: 5px solid black;
+    padding: 10px;
+    color: black;
+    margin: 0 auto;
 }
 a {
   color: black;
@@ -157,7 +158,10 @@ input {
   display: flex;
   justify-items: center;
 }
-.form{
+.form {
   border: solid #111111;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto;
 }
