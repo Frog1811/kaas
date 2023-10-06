@@ -162,6 +162,19 @@ input {
   border: solid #111111;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 40%;
+  text-align: center;
   margin: 0 auto;
+}
+.fill{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+input{
+  width: 98%;
+}
+#Message {
+  color: pink;
 }
