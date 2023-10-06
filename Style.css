@@ -50,7 +50,7 @@ body{
 .sidebar a:hover {
   color: #f1f1f1;
 }
-.sidebar .closebtn {
+.sidebar .closeBTN {
   position: absolute;
   top: 0;
   right: 25px;
@@ -128,7 +128,7 @@ body{
     width: 650px;
     border: 5px solid black;
     padding: 10px;
-    color: black;
+    color: white;
     margin: 0 auto;
 }
 a {
@@ -177,4 +177,15 @@ input{
 }
 #Message {
   color: pink;
+}
+.More{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+.Why-Code, .Free-Time{
+  width: 400px;
+  border: 5px solid black;
+  padding: 10px;
+  color: white;
 }
