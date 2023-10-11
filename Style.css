@@ -193,3 +193,13 @@ input{
 input {
   width: 200px;
 }
+.Project{
+  display: flex;
+  justify-content: center;
+}
+.ProjectIntro {
+  text-align: center;
+  color: white;
+  width: 50%;
+  border: 2px solid black;
+}
