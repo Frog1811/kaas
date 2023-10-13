@@ -198,8 +198,13 @@ input {
   justify-content: center;
 }
 .ProjectIntro {
+  display: flex;
   text-align: center;
+  flex-direction: column;
   color: white;
   width: 50%;
   border: 2px solid black;
+}
+table, th, td {
+  border:1px solid black;
 }
