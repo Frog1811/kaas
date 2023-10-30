@@ -109,7 +109,8 @@ body{
   text-align: center;
 }
 .LOG{
-  font-size: 25px
+  font-size: 25px;
+  padding: 10px;
 }
 .koopa{
   display: flex;
@@ -119,7 +120,7 @@ body{
 }
 .UpdateImage{
   position: fixed;
-    top: 62%;
+    top: 64%;
     right: 15%;
 }
 
