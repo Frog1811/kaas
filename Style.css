@@ -221,3 +221,13 @@ table, th, td {
   justify-content: space-around;
   padding: 40px;
 }
+.ProjectRow1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.ProjectRow2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
