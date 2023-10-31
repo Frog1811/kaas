@@ -18,7 +18,7 @@ body{
   Margin-right: 45%;
 }
 .openB{
-  background-color: grey;
+  background-color: purple;
   color: white;
   font-size: 30px;
   border-color: grey;
@@ -62,7 +62,7 @@ body{
   border-style: solid;
   border-image: url(IMG/border.png) 30 round;
   width: 35%;
-  height: 30%;
+  height: 35%;
   border-height: 20px;
   border-width: 20px;
   position: absolute;
@@ -120,7 +120,7 @@ body{
 }
 .UpdateImage{
   position: fixed;
-    top: 64%;
+    top: 66%;
     right: 15%;
 }
 
@@ -186,7 +186,7 @@ input{
   padding: 40px;
 }
 .Why-Code, .Free-Time{
-  width: 400px;
+  width: 430px;
   border: 5px solid black;
   padding: 10px;
   color: white;
@@ -201,6 +201,7 @@ input {
 .ProjectIntro {
   display: flex;
   text-align: center;
+  align-items: center;
   flex-direction: column;
   color: white;
   width: 50%;
