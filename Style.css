@@ -60,7 +60,7 @@ body{
 .info{
   color: white;
   border-style: solid;
-  border-image: url(IMG/border.png) 30 round;
+  border-color: purple;
   width: 35%;
   height: 35%;
   border-height: 20px;
@@ -96,7 +96,7 @@ body{
 .Update {
   color: white;
   border-style: solid;
-  border-image: url(IMG/border.png) 30 round;
+  border-color: purple;
   width: 35%;
   height: 30%;
   border-height: 20px;
